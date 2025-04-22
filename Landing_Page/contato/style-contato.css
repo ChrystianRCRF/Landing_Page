@@ -1,0 +1,63 @@
+@font-face {
+    font-family: chakra;
+    src: url(./../fontes/ChakraPetch-SemiBold.ttf) format(truetype);
+}
+
+body {
+    display: block;
+    align-items: center;
+    height: 100vh;
+    background-color: #CECEDF;
+    font-family: chakra, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #304CB0;
+    color: white;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main div {
+    padding: 100px;
+    margin: 50px;
+    background-color: #145490;
+    color: #ffffff;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    max-width: 1000px;
+}
+
+textarea {
+    min-width: 450px;
+    min-height: 100px;
+}
+
+button {
+    font-family: chakra, sans-serif;
+    min-width: 45px;
+    min-height: 10px;
+}
